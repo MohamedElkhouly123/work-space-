@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WorkSpaceDeal</string>
+    <string name="title_activity_maps">Select Map Location</string>
+    <string name="GPSAlertDialogTitle">GPSAlertDialogTitle</string>
+    <string name="action_settings">action_settings</string>
+    <string name="GPSAlertDialogMessage">GPSAlertDialogMessage</string>
+    <string name="cancel">Cancel</string>
+    <string name="invalid_email">Email must be like this \"example@example.example\"</string>
+    <string name="invalid_phone1">Phone number must be equal 11 numbers</string>
+    <string name="invalid_confirm_password">Confirm password not match</string>
+    <string name="invalid_phone2"> number</string>
+    <string name="stores">ٍStores</string>
+    <string name="workers">عمال</string>
+    <string name="order">طلب</string>
+    <string name="Notification">Notifications</string>
+    <string name="menu">Menu</string>
+    <string name="error_inter_net">No internet connection Please check your internet and try again later</string>
+    <string name="load_more">تحميل المزيد</string>
+    <string name="profile">حسابي</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_enter_app">"The easiest way to book a workspace, we \n will ensure comfort and save your time"</string>
+    <string name="login_text">تسجيل</string>
+    <string name="sign_up_text">انشاء حساب</string>
+    <string name="sign_up_with_google">تسجيل الدخول ب جوجل</string>
+    <string name="sign_up_with_facebook">تسجيل الدخول بالفيس بوك</string>
+    <string name="takephoto">اضغط هنا لاضافه صوره شخصيه</string>
+    <string name="sign_up_as">تسجيل الدخول ك ?</string>
+    <string name="dont_have_account">"هل لديك حساب"</string>
+    <string name="full_name">الاسم كامل</string>
+    <string name="email">عنوان البريد الالكتروني</string>
+    <string name="phone">رقم الموبيل</string>
+    <string name="password">كلمه المرور</string>
+    <string name="re_pass">اعاده كلمه المرور</string>
+    <string name="next">التالي</string>
+    <string name="end">بدايه</string>
+    <string name="search_coworking">Search coworking spaces</string>
+    <string name="serch_cworking2">"Find space in your area or in cities around \n the globe by using filtered search"</string>
+    <string name="serch_cworking3">Check out pictures, amenities, opening \n
+        hours, price, and read member reviews</string>
+    <string name="specific_time">تحديد وقت معين</string>
+    <string name="choose_time">Choose a specific time period to reseve the \n
+        piace accordin to your needs</string>
+    <string name="home">الرئيسيه</string>
+    <string name="work_space">اماكن عمل</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="meeting_rooms">غرف اجتماعات</string>
+    <string name="shared_offices">اماكن مشتركه</string>
+    <string name="show_all_listes">اظهار الكل</string>
+    <string name="Search">بحث</string>
+    <string name="Contact_us_Directly">الاتصال بنا</string>
+
+
+
+
+
+    <string name="myaccount">حسابي</string>
+    <string name="mybookings">المحجوزات</string>
+    <string name="editpersonaldetails">تغير المعلومات الشخصيه </string>
+    <string name="changePassword">تغير الرقم السري</string>
+    <string name="contactUsDirectly">الاتصال بنا</string>
+    <string name="subject">موضوع</string>
+    <string name="message">رسائل</string>
+    <string name="editPersonalDetails">تعديل المعلومات الشخصيه</string>
+    <string name="save">حفظ</string>
+    <string name="changenewpassword">تغير الرقم السري</string>
+    <string name="FeaturedAds">اعلانات</string>
+    <string name="LatestListings">القائمه</string>
+    <string name="Contact_Us">اتصل بنا</string>
+    <string name="SharedOffice">اماكن مشتركه</string>
+    <string name="Room_Metting">غرفه اجتماع</string>
+    <string name="Filters">تنقيه</string>
+    <string name="CURRENT_PASSWORD">الرقم السري الحالي</string>
+    <string name="NEW_PASSWORD">رقم سري جديد</string>
+    <string name="RETRY_THE_NEW_PASSWORD">اعاده ادخال الرقم السري</string>
+    <string name="METTING_ROOM">غرفه اجتماع</string>
+    <string name="opend_Now">متاح الان</string>
+    <string name="booked">محجوز</string>
+    <string name="persons">اشخاص</string>
+    <string name="Follow_Us">Follow Us</string>
+    <string name="Favourate">مفضله</string>
+    <string name="Email">بريد</string>
+    <string name="Send">ارسال</string>
+    <string name="FULL_NAME">الاسم كامل</string>
+    <string name="PHONE_NUMBER">رقم الموبيل</string>
+    <string name="Category">تصنيف</string>
+    <string name="Location">عنوان</string>
+    <string name="Price_Range">تحديد الثمن</string>
+    <string name="Rating">تقييم</string>
+    <string name="Animation">رسوم متحركه</string>
+    <string name="Apply_Filters">Apply Filters</string>
+    <string name="EMAIL_ADDRESS">البريد الالكتروني</string>
+    <string name="Skip">تخطي</string>
+
+
+
+</resources>

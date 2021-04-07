@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_height="@dimen/_50sdp">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/fragment_search_titel_tv"
+            android:layout_height="wrap_content"
+            android:text="@string/Search"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_15sdp"
+
+            />
+
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/fragment_search_image_back_btn"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:scaleType="centerCrop"
+
+            android:backgroundTint="@color/blue"
+            android:layout_gravity="start|center"
+
+            android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+            />
+
+
+
+
+        <ImageView
+            android:id="@+id/fragment_services_mentanence_mab_details_back_btn11"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+
+
+            android:backgroundTint="@color/gray"
+            android:layout_gravity="bottom"
+
+            android:background="@color/gray"
+            />
+
+
+    </FrameLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/gray_image">
+
+    </ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/fragment_search__sr_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/load_more"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/fragment_search__recycler_view"
+                            android:layout_width="match_parent"
+                            android:nestedScrollingEnabled="false"
+                            android:layout_height="match_parent"
+                            android:scrollbars="vertical" />
+                        <!--                            android:layout_above="@+id/load_more"-->
+
+
+                        <!--                        <include-->
+                        <!--                            layout="@layout/item_load_more"-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:layout_alignParentBottom="true" />-->
+
+                        <!--                        <include layout="@layout/error" />-->
+                        <!--                        &lt;!&ndash;                    <include layout="@layout/cardview_general_vert_hajj_and_hotels_item" />&ndash;&gt;-->
+                        <!--                        <include layout="@layout/not_found_result_error" />-->
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </ScrollView>
+</LinearLayout>

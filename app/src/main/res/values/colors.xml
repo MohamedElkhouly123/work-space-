@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#125BA2</color>
+    <color name="purple_500">#125BA2</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#125BA2</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#125BA2</color>
+    <color name="gray2">#808080</color>
+    <color name="blck1">#535050</color>
+    <color name="red2">#B61415</color>
+    <color name="gray">#BDA9A7</color>
+    <color name="blue_text">#125BA2</color>
+    <color name="green_text">#2ECC71</color>
+    <color name="gray_text">#495057</color>
+    <color name="yello">#FFEB3B</color>
+    <color name="dot_dark_screen1">#E8E8E8</color>
+    ///////////////////////////////////////
+    <array name="array_dot_active">
+    <item>@color/blue</item>
+    <item>@color/blue</item>
+    <item>@color/blue</item>
+    <item>@color/blue</item>
+    </array>
+    ////////////////////////////////////////
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+
+    </array>
+
+    /////////////////////////////
+
+    <color name="red">#D63031</color>
+    <color name="success">#32BEA6</color>
+    <color name="error">#E04F5F</color>
+    <color name="gray_text_color">#252525</color>
+    <color name="pink">#D81357</color>
+    <color name="green">#32BEA6</color>
+    <color name="cancel_red">#E04F5F</color>
+
+    <color name="yellow">#ffcd33</color>
+    <color name="card_item_color">#FADAAB</color>
+    <color name="card_item_color2">#FCFCFC</color>
+    <color name="gray_image">#19F44336</color>
+    <color name="blue_header">#125BA2</color>
+    <color name="blue_redios_image">#61ABED</color>
+    <color name="green_header">#80C92C</color>
+    <color name="card_item_color_my_booking">#EFFBF4</color>
+    <color name="white_home">#FFFFFF</color>
+</resources>

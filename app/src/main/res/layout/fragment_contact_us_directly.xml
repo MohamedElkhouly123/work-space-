@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Favourate"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_15sdp"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/fragment_contact_us_back_btn"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:scaleType="centerCrop"
+
+            android:backgroundTint="@color/red"
+            android:layout_gravity="start|center"
+
+            android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+            />
+
+
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/fragment_services_mentanence_mab_details_back_btn11"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+
+
+        android:backgroundTint="@color/gray"
+        android:layout_gravity="bottom"
+
+        android:background="@color/gray"
+        />
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/contact_us_cuate"
+                    android:layout_height="@dimen/_200sdp">
+                </ImageView>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/fragment_contact_us_directly_til_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:hint="@string/full_name"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+
+                        android:id="@+id/fragment_contact_us_directly_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        style="@style/EditTextLogin"
+                        android:ems="10"
+                        android:inputType="text"
+                        >
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/fragment_contact_us_directly_til_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:hint="@string/Email"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+
+                        android:id="@+id/fragment_contact_us_directly_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        style="@style/EditTextLogin"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        >
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/fragment_contact_us_directly_til_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:hint="@string/phone"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+
+                        android:id="@+id/fragment_contact_us_directly_mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        style="@style/EditTextLogin"
+                        android:ems="10"
+                        android:inputType="phone"
+                        >
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/fragment_contact_us_directly_til_subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:hint="@string/subject"
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/fragment_contact_us_directly_subject"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        style="@style/EditTextLogin"
+                        android:ems="10"
+                        android:inputType="text"
+                        >
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/fragment_contact_us_directly_til_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:hint="@string/message"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/fragment_contact_us_directly_message"
+                        android:layout_width="match_parent"
+                        android:gravity="top|left"
+                        android:layout_height="@dimen/_120sdp"
+                        style="@style/EditTextLogin"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        >
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Send"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/fragment_contact_us_directly_btu"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:background="@drawable/about_us_buttom"
+                    />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

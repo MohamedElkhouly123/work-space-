@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@color/blue_header"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="@color/blue"
+                android:elevation="@dimen/_5sdp"
+                android:textStyle="bold"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/editpersonaldetails"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18ssp"
+                android:elevation="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_marginStart="@dimen/_65sdp"
+                android:layout_marginEnd="@dimen/_65sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                />
+
+            <ImageView
+                android:id="@+id/fragment_edit_personal_back_img"
+                android:layout_width="@dimen/_27sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:elevation="@dimen/_5sdp"
+                android:src="@drawable/ic_baseline_arrow_back_ios"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/_6sdp">
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="@dimen/_105sdp"
+                android:layout_height="@dimen/_105sdp"
+
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:src="@color/blue_redios_image"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/fragment_mybooking_circle_image"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/placeperson"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/_21sdp"
+                    android:layout_height="@dimen/_21sdp"
+                    android:layout_gravity="right"
+
+                    android:layout_marginEnd="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_35sdp"
+
+                android:src="@color/blue_redios_image" />
+                  <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/fragment_rejester_profile_photo_circularImageView_btn"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="right"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_35sdp"
+
+                    android:src="@drawable/ic_baseline_photo_camera_24" >
+                  </de.hdodenhof.circleimageview.CircleImageView>
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_shape2"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_30sdp"
+            android:paddingStart="@dimen/_13sdp"
+            android:paddingEnd="@dimen/_13sdp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/FULL_NAME"
+                android:textColor="@color/gray2"
+                android:textSize="@dimen/_13sdp"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/fragment_Edit_Personal_Details_til_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/fragment_Edit_Personal_Details_full_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    style="@style/EditTextLogin"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="Ahmed Mostafa Elkholy"
+                    android:drawableStart="@drawable/accounticon"
+                    android:drawablePadding="@dimen/_13sdp"
+                    android:textColor="#495057"
+                    android:textSize="@dimen/_13sdp"
+                    android:textStyle="bold"
+                    >
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EMAIL_ADDRESS"
+                android:textColor="@color/gray2"
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/fragment_Edit_Personal_Details_til_email_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/fragment_Edit_Personal_Details_email_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    style="@style/EditTextLogin"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:text="Ahmed.Elkholy@gmail.com"
+                    android:drawableStart="@drawable/mailicon"
+                    android:drawablePadding="@dimen/_13sdp"
+                    android:textColor="#495057"
+                    android:textSize="@dimen/_13sdp"
+                    android:textStyle="bold"
+                    >
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PHONE_NUMBER"
+                android:textColor="@color/gray2"
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/fragment_Edit_Personal_Details_til_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/fragment_Edit_Personal_Details_phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    style="@style/EditTextLogin"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:text="+201058049261"
+                    android:drawableStart="@drawable/phoneicon"
+                    android:drawablePadding="@dimen/_13sdp"
+                    android:textColor="#495057"
+                    android:textSize="@dimen/_13sdp"
+                    android:textStyle="bold"
+                    >
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/fragment_contact_us_directly_btu"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:background="@drawable/about_us_buttom"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

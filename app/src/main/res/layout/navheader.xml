@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue_header"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:padding="@dimen/_6sdp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="@dimen/_105sdp"
+
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_gravity="center"
+            android:src="@color/blue_redios_image"
+            android:elevation="@dimen/_3sdp"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/navheader_circle_image"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/placeperson"
+            android:elevation="@dimen/_3sdp"
+            />
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/navheader_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_22sdp"
+        android:layout_gravity="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20dp"
+        android:text="mahmoud Bohlok"/>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_20sdp"
+    android:src="@drawable/white_shape">
+
+</ImageView>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@color/blue_header"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/fragment_my_account_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="@color/blue_header"
+                android:elevation="@dimen/_5sdp"
+                android:textStyle="bold"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/myaccount"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18ssp"
+                android:elevation="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_marginStart="@dimen/_65sdp"
+                android:layout_marginEnd="@dimen/_65sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                />
+
+            <ImageView
+                android:id="@+id/fragment_my_account_back_img"
+                android:layout_width="@dimen/_27sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:elevation="@dimen/_5sdp"
+                android:src="@drawable/ic_baseline_arrow_back_ios"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/_13sdp"
+            android:layout_marginEnd="@dimen/_13sdp"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_13sdp"
+            >
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="@dimen/_105sdp"
+                    android:layout_height="@dimen/_105sdp"
+
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:src="@color/blue_redios_image"
+                    />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/fragment_my_account_profile_photo_circularImageView"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/placeperson"
+                    />
+
+
+
+
+
+
+            </FrameLayout>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mahmoud Mohamed"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold"
+                android:id="@+id/fragment_my_account_userName_tv"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mahmoud @gmail.com"
+                android:gravity="center"
+                android:textColor="@color/dot_dark_screen1"
+                android:textSize="@dimen/_13ssp"
+                android:id="@+id/fragment_my_account_userEmail_tv"
+
+                />
+
+        </LinearLayout>
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_shape2"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_30sdp"
+            android:paddingStart="@dimen/_13sdp"
+            android:paddingEnd="@dimen/_13sdp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mybookings"
+                android:drawableStart="@drawable/bookicon"
+                android:drawablePadding="@dimen/_15sdp"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold"
+                android:id="@+id/fragment_my_account_mybookings_tv"
+                android:textColor="@color/gray2"
+                android:paddingStart="@dimen/_13sdp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/editpersonaldetails"
+                android:drawableStart="@drawable/editicon"
+                android:drawablePadding="@dimen/_15sdp"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold"
+                android:id="@+id/fragment_my_account_edit_personal_profile_tv"
+                android:textColor="@color/gray2"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:paddingStart="@dimen/_13sdp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/changePassword"
+                android:drawableStart="@drawable/passwordicon"
+                android:drawablePadding="@dimen/_15sdp"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold"
+                android:id="@+id/fragment_my_account_change_password_tv"
+                android:textColor="@color/gray2"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:paddingStart="@dimen/_13sdp"
+                />
+            <TextView
+                android:id="@+id/fragment_my_account_state_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deactive My Account"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:paddingStart="@dimen/_13sdp"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold"
+                android:textColor="#B61415"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

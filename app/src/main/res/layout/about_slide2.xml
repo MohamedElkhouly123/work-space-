@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_gravity="center"
+        android:elevation="@dimen/_1sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo2"
+        android:paddingStart="@dimen/_15sdp"
+        android:paddingEnd="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/search_coworking"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="#262626"
+        android:layout_marginTop="@dimen/_40sdp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/serch_cworking3"
+        android:gravity="center"
+        android:textSize="@dimen/_13ssp"
+        android:textColor="#262626"
+        android:layout_marginTop="@dimen/_8sdp"
+
+        />
+
+</LinearLayout>

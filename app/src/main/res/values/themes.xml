@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WorkSpaceDeal" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/blue_header</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+       <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+
+        <!-- Customize your theme here. -->
+
+    </style>
+    <style name="view_style">
+        <item name="android:background">#E3E3E4</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+    ////////////////////////
+    <style name="EditTextLogin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <!--        <item name="android:fontFamily">@font/janna</item>-->
+    <item name="android:textColorHint">@color/gray_text_color</item>
+    <item name="android:textColor">@color/blck1</item>
+    <item name="android:paddingEnd">@dimen/_10ssp</item>
+    <item name="android:paddingStart">@dimen/_10ssp</item>
+    <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+    <style name="CardView.">
+        <item name="android:layout_marginStart">@dimen/_2sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_2sdp</item>
+        <item name="background">@drawable/cardbackground</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="button1_nobackground" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="background">@drawable/no_background_buttom2</item>
+    </style>
+
+
+    <style name="view_style2">
+        <item name="android:background">#E3E3E4</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:gravity">center|left</item>
+        <item name="android:textColorHint">#8E8E93</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:drawablePadding">@dimen/_5sdp</item>
+        <item name="android:padding">@dimen/_6ssp</item>
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="video">
+
+        <item name="android:radius">@dimen/_15ssp</item>
+
+    </style>
+    <style name="Button">
+        <!--        <item name="android:fontFamily">@font/janna</item>-->
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:background">@color/blue</item>
+
+        <!--        <item name="android:layout_marginTop">@dimen/_12sdp</item>-->
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="NavigationViewStyle">
+        <item name="android:textSize">@dimen/_22sdp</item>
+        <item name="android:drawablePadding">@dimen/_10sdp</item> <!-- menu item text size-->
+        <item name="android:scaleType">fitXY</item> <!-- menu item text size-->
+        <item name="android:textColor">@color/white</item> <!-- menu item text size-->
+        <!-- menu item text size-->
+        <!-- menu item text size-->
+        <!-- menu item height-->
+    </style>
+    <style name="EditTextsearch">
+        <!--        <item name="android:fontFamily">@font/janna</item>-->
+        <item name="android:textColorHint">@color/white</item>
+
+        <item name="android:paddingEnd">@dimen/_10ssp</item>
+        <item name="android:paddingStart">@dimen/_10ssp</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:radius">@dimen/_3ssp</item>
+
+
+        <!--        <item name="android:background">@drawable/edit_text_gray_shape</item>-->
+        <!--        <item name="colorControlNormal">@color/black2</item>-->
+        <!--                <item name="backgroundTint">@color/black</item>-->
+        <item name="colorControlActivated">@color/mdtp_white</item>
+        <!--                <item name="colorControlHighlight">@color/black</item>-->
+
+    </style>
+
+
+
+</resources>

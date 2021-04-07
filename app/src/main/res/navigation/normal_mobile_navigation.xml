@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/normal_mobile_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.workspacedeal.view.fragment.HomeCycle2.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_sharedOfficesFragment"
+            app:destination="@id/sharedOfficesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_filterFragment"
+            app:destination="@id/filterFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_About_Us"
+            app:destination="@id/aboutUs_Fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_contact_us"
+            app:destination="@id/contact_us_Fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_favorett"
+            app:destination="@id/favoret_Fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_meetingRoomsFragment"
+            app:destination="@id/meetingRoomsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_workSpaceFragment"
+            app:destination="@id/workSpaceFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_myAccount"
+            app:destination="@id/myAccount" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/sharedOfficesFragment"
+        android:name="com.example.workspacedeal.view.fragment.HomeCycle2.SharedOfficesFragment"
+        android:label="fragment_shared_offices"
+        tools:layout="@layout/fragment_shared_offices"
+        >
+        <action
+            android:id="@+id/action_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_share_office_fragment_to_favoret"
+            app:destination="@id/favoret_Fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_filterFragment"
+            app:destination="@id/filterFragment" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/meetingRoomsFragment"
+        android:name="com.example.workspacedeal.view.fragment.HomeCycle2.MeetingRoomsFragment"
+        android:label="fragment_meeting_rooms"
+        tools:layout="@layout/fragment_meeting_rooms" >
+        <action
+            android:id="@+id/action_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_meeting_room_fragment_to_favoret"
+            app:destination="@id/favoret_Fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_filterFragment"
+            app:destination="@id/filterFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/workSpaceFragment"
+        android:name="com.example.workspacedeal.view.fragment.HomeCycle2.WorkSpaceFragment"
+        android:label="fragment_work_space"
+        tools:layout="@layout/fragment_work_space" > <action
+        android:id="@+id/action_to_homeFragment"
+        app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_work_space_fragment_to_favoret"
+            app:destination="@id/favoret_Fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_filterFragment"
+            app:destination="@id/filterFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/contact_us_Fragment"
+        android:name="com.example.workspacedeal.view.fragment.navMenu.Contact_us_fragment"
+        android:label="fragment_work_space"
+        tools:layout="@layout/contactus_fragment" >
+        <action
+        android:id="@+id/action_contact_us_Fragment_to_contactUsDirectly"
+        app:destination="@id/contactUsDirectly" />
+    <action
+        android:id="@+id/action_to_homeFragment"
+        app:destination="@id/homeFragment" /></fragment>
+
+
+
+    <fragment
+        android:id="@+id/favoret_Fragment"
+        android:name="com.example.workspacedeal.view.fragment.HomeCycle2.Favoret_fragment"
+        android:label="fragment_work_space"
+        tools:layout="@layout/fragment_favorate"
+
+        >
+        <action
+            android:id="@+id/action_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_favoret_Fragment_to_meeting_room"
+            app:destination="@id/meetingRoomsFragment" />
+        <action
+            android:id="@+id/action_favoret_Fragment_to_shared_office"
+            app:destination="@id/sharedOfficesFragment" />
+        <action
+            android:id="@+id/action_favoret_Fragment_to_work_space"
+            app:destination="@id/workSpaceFragment" />
+
+
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/aboutUs_Fragment"
+        android:name="com.example.workspacedeal.view.fragment.navMenu.About_Us_Fragment"
+        android:label="fragment_work_space"
+        tools:layout="@layout/fragmrnt_aboutus"
+
+        >
+        <action
+            android:id="@+id/action_to_homeFragment"
+            app:destination="@id/homeFragment" /></fragment>
+
+
+
+
+
+    <fragment
+        android:id="@+id/contactUsDirectly"
+        android:name="com.example.workspacedeal.view.fragment.navMenu.ContactUsDirectly"
+        android:label="fragment_contact_us_directly"
+        tools:layout="@layout/fragment_contact_us_directly" >
+        <action
+            android:id="@+id/action_contactUsDirectly_to_contact_us_Fragment"
+            app:destination="@id/contact_us_Fragment" />
+    </fragment>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <fragment
+        android:id="@+id/myAccount"
+        android:name="com.example.workspacedeal.view.fragment.navMenu.MyAccount"
+        android:label="fragment_my_account"
+        tools:layout="@layout/fragment_my_account" >
+        <action
+            android:id="@+id/action_myAccount_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_myAccount_to_editPersonalDetails"
+            app:destination="@id/editPersonalDetails" />
+        <action
+            android:id="@+id/action_myAccount_to_changePassword"
+            app:destination="@id/changePassword" />
+    <action
+            android:id="@+id/action_myAccount_to_myBookings"
+            app:destination="@id/myBookings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/myBookings"
+        android:name="com.example.workspacedeal.view.fragment.navMenu.MybookinsFragment"
+        android:label="fragment_mybookings"
+        tools:layout="@layout/fragment_mybooking" >
+        <action
+            android:id="@+id/action_myBooking_to_myAccount"
+            app:destination="@id/myAccount" />
+    </fragment>
+    <fragment
+        android:id="@+id/editPersonalDetails"
+        android:name="com.example.workspacedeal.view.fragment.navMenu.EditPersonalDetails"
+        android:label="fragment_edit_personal_details"
+        tools:layout="@layout/fragment_edit_personal_details" >
+        <action
+            android:id="@+id/action_editPersonalDetails_to_myAccount2"
+            app:destination="@id/myAccount" />
+    </fragment>
+    <fragment
+        android:id="@+id/search_fragment"
+        android:name="com.example.workspacedeal.view.fragment.HomeCycle2.Search_Fragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_search_fragment_to_filter_fragment"
+            app:destination="@id/filterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/changePassword"
+        android:name="com.example.workspacedeal.view.fragment.navMenu.ChangePassword"
+        android:label="ChangePassword"
+        tools:layout="@layout/fragment_change_password"
+
+        >
+        <action
+            android:id="@+id/action_changePassword_to_myAccount"
+            app:destination="@id/myAccount" />
+    </fragment>
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="com.example.workspacedeal.view.fragment.HomeCycle2.FilterFragment"
+        android:label="filterFragment1"
+        tools:layout="@layout/fragment_filter">
+        <action
+            android:id="@+id/action_filter_fragmet_to_home_fragment"
+            app:destination="@id/homeFragment" />
+
+        <action
+            android:id="@+id/action_filter_fragmet_to_meetingRoom_fragment"
+            app:destination="@id/meetingRoomsFragment" />
+
+        <action
+            android:id="@+id/action_filter_fragmet_to_sharedOffice_fragment"
+            app:destination="@id/sharedOfficesFragment" />
+
+        <action
+            android:id="@+id/action_filter_fragmet_to_workSpace"
+            app:destination="@id/workSpaceFragment" />
+        <action
+            android:id="@+id/action_filter_fragmet_to_search_fragment"
+            app:destination="@id/search_fragment" />
+    </fragment>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</navigation>

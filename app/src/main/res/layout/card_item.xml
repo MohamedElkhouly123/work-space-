@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+
+
+    android:paddingBottom="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_10sdp"
+android:elevation="@dimen/_5ssp"
+    android:clickable="true"
+    android:focusable="true"
+
+    android:id="@+id/card_my_mentainance_vendors_item_cardview"
+    >
+<!--    android:foreground="?selectableItemBackground"-->
+<!--    app:cardBackgroundColor="@android:color/white"-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/card_item_framelayout"
+        android:layout_height="match_parent"
+        android:background="@color/card_item_color"
+
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+           android:layout_margin="@dimen/_6sdp"
+           >
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_10ssp"
+                >
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/card_item_imageview_IM"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_90sdp"
+
+android:src="@drawable/pic"
+
+                android:scaleType="fitXY"
+
+
+
+
+                />
+        </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/card_items_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="@dimen/_7sdp"
+                        android:text="mahmoud mohamed"
+android:textColor="@color/blue_text"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:textSize="@dimen/_15ssp"
+                        android:textStyle="bold" />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_marginEnd="@dimen/_5sdp"
+
+
+
+                    android:id="@+id/card_item_state_tv"
+
+android:textColor="@color/green_text"
+                    android:text="@string/opend_Now"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+android:layout_marginTop="@dimen/_2sdp"
+
+                    android:textSize="@dimen/_12ssp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:orientation="horizontal"
+                    >
+
+                    <RatingBar
+                        android:id="@+id/card_item_rating_bar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:rating="3"
+                        android:backgroundTint="@color/yello"
+                        android:isIndicator="true" />
+
+                    <TextView
+                        android:id="@+id/card_item_rate_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="(20)"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+
+                        android:textSize="@dimen/_11ssp"
+                        />
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/card_item_type_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/METTING_ROOM"
+                    android:ellipsize="end"
+                    android:layout_marginTop="@dimen/_2sdp"
+
+                    android:layout_marginEnd="@dimen/_5sdp"
+
+                    android:textSize="@dimen/_12ssp"
+                    />
+
+
+                    <!--                <TextView-->
+                    <!--                    android:id="@+id/top_part_in_nav_genral_part_hajj_and_umrah_toggle_btn"-->
+                    <!--                    android:layout_width="0dp"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:layout_gravity="right"-->
+                    <!--                    android:layout_weight="1"-->
+                    <!--                    android:text="@string/make_order"-->
+                    <!--                    android:textSize="@dimen/_8ssp"-->
+                    <!--                    android:textStyle="bold"-->
+                    <!--                    android:elevation="@dimen/_3sdp"-->
+                    <!--                    android:layout_marginStart="@dimen/_5sdp"-->
+                    <!--                    android:paddingTop="@dimen/_7sdp"-->
+                    <!--                    android:paddingBottom="@dimen/_7sdp"-->
+                    <!--                    android:gravity="center"-->
+                    <!--                    android:visibility="visible"-->
+                    <!--                    android:background="@drawable/btn_red_vendor_shape"-->
+                    <!--                    android:textColor="@color/white"-->
+
+                    <!--                    />-->
+                    <!--                <TextView-->
+                    <!--                    android:id="@+id/cardview_vendor_details_item_start_hour_tv"-->
+                    <!--                    android:layout_width="wrap_content"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:layout_marginStart="@dimen/_4sdp"-->
+                    <!--                    android:layout_marginEnd="@dimen/_4sdp"-->
+                    <!--                    android:gravity="center"-->
+                    <!--                    android:text="Start Hour : 10"-->
+                    <!--                    android:textColor="@color/black"-->
+                    <!--                    android:textSize="@dimen/_11ssp" />-->
+
+                    <!--                <TextView-->
+                    <!--                    android:id="@+id/cardview_vendor_details_item_end_hour_tv"-->
+                    <!--                    android:layout_width="wrap_content"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:layout_marginStart="@dimen/_4sdp"-->
+                    <!--                    android:layout_marginEnd="@dimen/_4sdp"-->
+                    <!--                    android:gravity="center"-->
+                    <!--                    android:text="End Hour : 12"-->
+                    <!--                    android:textColor="@color/black"-->
+                    <!--                    android:textSize="@dimen/_11ssp" />-->
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        <TextView
+            android:id="@+id/card_item_description_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:textColor="@color/gray_text"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:text="The Quick. brown fox jumps over a lazy dog Djs flock by when mtv ax quiz....   jumps over a lazy dog Djs flock by when mtv ax quiz....   jumps over a lazy dog Djs flock by when mtv ax quiz....   jumps over a lazy dog Djs flock by when mtv ax quiz....  "
+            android:ellipsize="end"
+
+            android:maxLines="2"
+            android:layout_marginStart="@dimen/_10sdp"
+
+            android:textSize="@dimen/_12ssp"
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+>
+            <TextView
+                android:id="@+id/card_item_location_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+               android:layout_gravity="start|center_vertical"
+                android:text="Nasr - cairo"
+                android:ellipsize="end"
+android:drawableStart="@drawable/ic_baseline_location_on_24"
+
+
+
+                android:textSize="@dimen/_12ssp"
+                />
+            <FrameLayout
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:id="@+id/card_item_love"
+
+                android:layout_gravity="end|center_vertical">
+            <ImageView
+                android:id="@+id/card_item_love_img_white"
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_28sdp"
+
+              android:src="@drawable/ic_baseline_favorite_border_red_24"
+android:scaleType="fitXY"
+
+                android:layout_marginEnd="@dimen/_10sdp"
+
+                />
+ <ImageView
+     android:visibility="gone"
+                android:id="@+id/card_item_love_img_red"
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_28sdp"
+              android:src="@drawable/ic_baseline_favorite_24"
+android:scaleType="fitXY"
+
+                android:layout_marginEnd="@dimen/_10sdp"
+
+                />
+
+            </FrameLayout>
+
+        </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

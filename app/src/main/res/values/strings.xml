@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">WorkSpaceDeal</string>
+    <string name="title_activity_maps">Select Map Location</string>
+    <string name="GPSAlertDialogTitle">GPSAlertDialogTitle</string>
+    <string name="action_settings">action_settings</string>
+    <string name="GPSAlertDialogMessage">GPSAlertDialogMessage</string>
+    <string name="cancel">Cancel</string>
+    <string name="invalid_email">Email must be like this \"example@example.example\"</string>
+    <string name="invalid_phone1">Phone number must be equal 11 numbers</string>
+    <string name="invalid_confirm_password">Confirm password not match</string>
+    <string name="invalid_phone2"> number</string>
+    <string name="stores">ٍStores</string>
+    <string name="workers">Workers</string>
+    <string name="order">Orders</string>
+    <string name="Notification">Notifications</string>
+    <string name="menu">Menu</string>
+    <string name="error_inter_net">No internet connection Please check your internet and try again later</string>
+    <string name="load_more">Load More</string>
+    <string name="profile">My Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_enter_app">"The easiest way to book a workspace, we \n will ensure comfort and save your time"</string>
+    <string name="login_text">Login</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="sign_up_with_google">Sign Up With Google</string>
+    <string name="sign_up_with_facebook">Sign Up With Facebook</string>
+    <string name="takephoto">Click here to add your profile picture </string>
+    <string name="sign_up_as">Sign Up as ?</string>
+    <string name="dont_have_account">"Don't have an account?"</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email Address</string>
+    <string name="phone">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="re_pass">Re_Password</string>
+    <string name="next">Next</string>
+    <string name="end">Start</string>
+    <string name="search_coworking">Search coworking spaces</string>
+    <string name="serch_cworking2">"Find space in your area or in cities around \n the globe by using filtered search"</string>
+    <string name="serch_cworking3">Check out pictures, amenities, opening \n
+        hours, price, and read member reviews</string>
+    <string name="specific_time">Determine a specific time</string>
+    <string name="choose_time">Choose a specific time period to reseve the \n
+        piace accordin to your needs</string>
+    <string name="home">Home</string>
+    <string name="work_space">Work Space</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="meeting_rooms">Meeting Rooms</string>
+    <string name="shared_offices">Shared  Offices</string>
+    <string name="show_all_listes">Show All Listes</string>
+    <string name="Search">Search</string>
+    <string name="Contact_us_Directly">Contact Us Directly</string>
+
+
+
+
+
+    <string name="myaccount">My Account</string>
+    <string name="mybookings">My Bookings</string>
+    <string name="editpersonaldetails">Edit Personal Details </string>
+    <string name="changePassword">Chagne Password</string>
+    <string name="contactUsDirectly">Contact Us Directly</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="editPersonalDetails">Edit Personal Details</string>
+    <string name="save">Save</string>
+    <string name="changenewpassword">Change New Password</string>
+    <string name="FeaturedAds">FeatureAds</string>
+    <string name="LatestListings">LatestListings</string>
+    <string name="Contact_Us">Contact Us</string>
+    <string name="SharedOffice">Shared Office</string>
+    <string name="Room_Metting">Room Metting</string>
+    <string name="Filters">filters</string>
+    <string name="CURRENT_PASSWORD">CURRENT PASSWORD</string>
+    <string name="NEW_PASSWORD">NEW_PASSWORD</string>
+    <string name="RETRY_THE_NEW_PASSWORD">RETRY THE NEW PASSWORD</string>
+    <string name="METTING_ROOM">METTING ROOM</string>
+    <string name="opend_Now">opend Now</string>
+    <string name="booked">booked</string>
+    <string name="persons">person</string>
+    <string name="Follow_Us">Follow Us</string>
+    <string name="Favourate">Favourate</string>
+    <string name="Email">Email</string>
+    <string name="Send">Send</string>
+    <string name="FULL_NAME">FULL NAME</string>
+    <string name="PHONE_NUMBER">PHONE_NUMBER</string>
+    <string name="Category">Category</string>
+    <string name="Location">Location</string>
+    <string name="Price_Range">Price Range</string>
+    <string name="Rating">Rating</string>
+    <string name="Animation">Animation</string>
+    <string name="Apply_Filters">Apply Filters</string>
+    <string name="EMAIL_ADDRESS">EMAIL ADDRESS</string>
+    <string name="Skip">Skip</string>
+
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/card_item_color"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+
+
+    android:paddingBottom="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardBackgroundColor="@android:color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground"
+    android:id="@+id/card_my_mentainance_vendors_item_cardview"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+
+        android:scaleType="centerCrop"
+        android:src="@drawable/card"
+
+        ></ImageView>
+
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

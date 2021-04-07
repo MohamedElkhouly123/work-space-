@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_baseline_house_24"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/workSpaceFragment"
+        android:icon="@drawable/workspace1"
+        android:title="@string/work_space" />
+    <item
+        android:id="@+id/meetingRoomsFragment"
+        android:icon="@drawable/workspace2"
+        android:title="@string/meeting_rooms" />
+    <item
+        android:id="@+id/sharedOfficesFragment"
+        android:icon="@drawable/workspace3"
+        android:title="@string/shared_offices" />
+</menu>

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/white"
+    android:orientation="vertical"
+
+        tools:context=".view.fragment.HomeCycle2.FilterFragment">
+
+  <FrameLayout
+        android:layout_width="match_parent"
+
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_height="@dimen/_60sdp">
+
+
+      <EditText
+          android:layout_width="@dimen/_200sdp"
+          android:layout_height="@dimen/_40sdp"
+          android:layout_gravity="center|center_vertical"
+          android:layout_marginStart="@dimen/_20sdp"
+          android:layout_marginEnd="@dimen/_20sdp"
+          android:background="@drawable/shape_search"
+          android:drawableStart="@drawable/ic_baseline_search_24"
+          android:gravity="start|center"
+          android:hint="@string/Search"
+          android:paddingEnd="@dimen/_10sdp"
+          android:paddingStart="@dimen/_10sdp"
+          android:maxLines="1"
+          android:textColor="@color/gray2"
+          android:textSize="@dimen/_12ssp"
+
+          />
+
+        <ImageView
+            android:id="@+id/fragment_filter_image_back_btn"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:scaleType="centerCrop"
+
+            android:backgroundTint="@color/blue"
+            android:layout_gravity="start|center_vertical"
+
+            android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+            />
+      <ImageView
+          android:id="@+id/fragment_services_mentanence_mab_details_back_btn11"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_1sdp"
+
+
+          android:backgroundTint="@color/gray"
+          android:layout_gravity="bottom"
+
+          android:background="@color/gray"
+          />
+    </FrameLayout>
+
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp"
+
+            >
+            <LinearLayout
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_weight="1"
+
+                    >
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:src="@drawable/iconfilter"
+                        android:scaleType="fitXY"
+                        />
+
+               <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Filters"
+                    android:gravity="center|center_vertical"
+                    android:textColor="@color/red2"
+                    android:textSize="@dimen/_15sdp"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:layout_weight="1"
+
+                    />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Category"
+                    android:id="@+id/fragment_filter_category_tv"
+                    android:textColor="@color/gray2"
+                    android:textSize="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Location"
+                    android:id="@+id/fragment_filter_Location_tv"
+                    android:textColor="@color/gray2"
+                    android:textSize="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Price_Range"
+                    android:textColor="@color/gray2"
+                    android:id="@+id/fragment_filter_Price_range_tv"
+                    android:textSize="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Rating"
+                    android:textColor="@color/gray2"
+                    android:id="@+id/fragment_filter_ratting_tv"
+                    android:textSize="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Animation"
+                    android:id="@+id/fragment_filter_animation_tv"
+                    android:textColor="@color/gray2"
+                    android:textSize="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+
+
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:layout_marginEnd="@dimen/_13sdp"
+                 >
+
+            <ImageView
+                style="@style/view_style2"
+                android:layout_gravity="center"
+
+                /></FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:id="@+id/fragment_filter_category_linear"
+
+
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_65sdp"
+                    android:text="Category"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#262626"
+                    android:textSize="@dimen/_15sdp"
+
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="All categories (301)"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Work Spaces (43)"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Meeting Rooms (245)"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shared offices (13)"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:id="@+id/fragment_filter_location_linear"
+                android:visibility="gone"
+
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_65sdp"
+                    android:text="Location"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#262626"
+                    android:textSize="@dimen/_15sdp"
+
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Naser City"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Giza"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Maadi"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Cairo"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:id="@+id/fragment_filter_price_range_linear"
+                android:visibility="gone"
+
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_65sdp"
+                    android:text="Price Range"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#262626"
+                    android:textSize="@dimen/_15sdp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price Per month 960 EGP"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_13sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+
+                    />
+
+
+                <SeekBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    android:indeterminate="true"
+
+
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:id="@+id/fragment_filter_animation_linear"
+                android:visibility="gone"
+
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_65sdp"
+                    android:text="Anemation"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#262626"
+                    android:textSize="@dimen/_15sdp"
+
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TV"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PlayStation"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Air Conditions"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rounded Tables"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    />
+
+
+            </LinearLayout>
+            </LinearLayout>
+
+            <Button
+
+                android:id="@+id/fragment_filter_search_btu"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_13sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+
+                android:background="@drawable/about_us_buttom"
+                android:gravity="center"
+                android:text="@string/Apply_Filters"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+            </LinearLayout>
+
+<!--        </LinearLayout>-->
+    </ScrollView>
+
+
+
+</LinearLayout>
